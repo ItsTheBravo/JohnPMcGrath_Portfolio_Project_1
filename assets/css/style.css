@@ -108,3 +108,26 @@ logo {
     width: 80%;
     color: #1a1a1a;
 }
+
+/* Timeline Styling */
+
+
+
+#timeline {
+    text-align: center;
+    color: #1a1a1a;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#timeline::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: whitesmoke;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
