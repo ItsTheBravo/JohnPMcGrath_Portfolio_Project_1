@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nobile&family=Nunito+Sans&family=Overpass&display=swap');
+
+/* General Stylings */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Nunito Sans, sans-serif;
+    color: #9a9a9a;
+}
+
+/* Headings */
+
+h1,
+h2 {
+    font-family: Overpass, sans-serif;
+    letter-spacing: 3px;
+    color: darkslategrey;
+}
