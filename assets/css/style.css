@@ -111,7 +111,11 @@ logo {
 
 /* Timeline Styling */
 
-
+#time h2 {
+    font-size: 300%;
+    text-align: center;
+    margin: 20px;
+}
 
 #timeline {
     text-align: center;
@@ -119,6 +123,7 @@ logo {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    width: 80%;
 }
 
 #timeline::after {
@@ -130,4 +135,18 @@ logo {
     bottom: 0;
     left: 50%;
     margin-left: -3px;
+}
+
+.right-side {
+    width: 33%;
+    left: 66%;
+    position: relative;
+    text-align: right;
+}
+
+.left-side {
+    width: 33%;
+    position: relative;
+    left: 0;
+    text-align: left;
 }
