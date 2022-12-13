@@ -114,7 +114,7 @@ logo {
 #time h2 {
     font-size: 300%;
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 
@@ -178,10 +178,55 @@ hr {
 
 /* Form styling */
 
-#form {
-    text-align: left;
-    border: 2px solid white;
+#form h2 {
+    font-size: 300%;
+    text-align: center;
+    margin: 30px;
+}
+
+#form-content {
     border-radius: 10px;
     width: 80%;
     margin: 0 auto;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: #062b7d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
 }

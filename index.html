@@ -123,22 +123,23 @@
     </section>
     <section id="form">
         <h2>We want to hear from you!</h2>
-        <form action="post">
+        <form id="form-content" action="post">
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
+            <input type="text" id="fname" name="fname" placeholder="Your first name.."><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br><br>
-            <label for="email">Email:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Your second name.."><br>
+            <label for="country">Country:</label>
             <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select>
-            <input type="email" id="email" name="email" value="Doe"><br>
+                <option value="Ireland">Australia</option>
+                <option value="UK">Canada</option>
+                <option value="USA">USA</option>
+            </select><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your email.."><br>
             <label for="area">What would you like a history on next?</label><br>
-            <input type="text" id="area" name="area" value="Tell us what you think"><br><br>
-            <label for="contact">Would you like to recieve marketing communications from us?</label><br>
-            <input type="checkbox" id="contact" name="contact" value="Doe"><br><br>
+            <textarea id="area" name="area" placeholder="Tell us what you think.."></textarea><br><br>
+            <!-- <label for="contact">Would you like to recieve marketing communications from us?</label><br>
+            <input type="checkbox" id="contact" name="contact"><br><br> -->
 
             <input type="submit" value="Submit">
         </form>
