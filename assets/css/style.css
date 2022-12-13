@@ -117,6 +117,7 @@ logo {
     margin: 20px;
 }
 
+
 #timeline {
     text-align: center;
     color: #1a1a1a;
@@ -137,6 +138,16 @@ logo {
     margin-left: -3px;
 }
 
+#timeline h2 {
+    font-size: 150%;
+}
+
+#timeline img {
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
 .right-side {
     width: 33%;
     left: 66%;
@@ -149,4 +160,21 @@ logo {
     position: relative;
     left: 0;
     text-align: left;
+}
+
+hr {
+    width: 150%;
+    border-top: 5px solid #9a9a9a;
+    margin: 4px 0;
+}
+
+.right-side hr {
+    width: 150%;
+    position: relative;
+    left: -50%;
+    margin-left: 5px;
+}
+
+#ps5 {
+    background-color: none;
 }
