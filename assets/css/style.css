@@ -230,3 +230,11 @@ input[type=submit] {
     cursor: pointer;
 
 }
+
+/* Footer Styling */
+
+footer {
+    background-color: #062b7d;
+    color: white;
+    height: 180px;
+}
