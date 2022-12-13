@@ -174,3 +174,14 @@ hr {
     left: -50%;
     margin-left: 5px;
 }
+
+
+/* Form styling */
+
+#form {
+    text-align: left;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+}

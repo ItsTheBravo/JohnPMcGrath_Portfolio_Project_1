@@ -121,8 +121,27 @@
             </div>
         </div>
     </section>
-    <section>
-        <div>Section 3</div>
+    <section id="form">
+        <h2>We want to hear from you!</h2>
+        <form action="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <label for="email">Email:</label><br>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <input type="email" id="email" name="email" value="Doe"><br>
+            <label for="area">What would you like a history on next?</label><br>
+            <input type="text" id="area" name="area" value="Tell us what you think"><br><br>
+            <label for="contact">Would you like to recieve marketing communications from us?</label><br>
+            <input type="checkbox" id="contact" name="contact" value="Doe"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
     </section>
     <footer> Footer, copyright and socials</footer>
 </body>
