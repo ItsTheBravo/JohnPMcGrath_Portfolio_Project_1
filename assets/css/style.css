@@ -237,4 +237,27 @@ footer {
     background-color: #062b7d;
     color: white;
     height: 180px;
+    bottom: 0;
+}
+
+footer h3 {
+    background-color: #062b7d;
+    text-align: center;
+    font-size: 150%;
+    padding: 1%;
+}
+
+#socials {
+    text-align: center;
+    background-color: #062b7d;
+}
+
+#socials>li {
+    display: inline;
+}
+
+#socials i {
+    font-size: 180%;
+    padding: 5%;
+    color: white;
 }
