@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Nunito Sans, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     color: #9a9a9a;
     background-color: lightslategray;
 }
@@ -173,8 +173,4 @@ hr {
     position: relative;
     left: -50%;
     margin-left: 5px;
-}
-
-#ps5 {
-    background-color: none;
 }
