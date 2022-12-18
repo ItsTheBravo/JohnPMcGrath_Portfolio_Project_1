@@ -98,6 +98,7 @@ logo {
     text-align: center;
     padding: 20px;
     font-size: 150%;
+    text-shadow: -1px 1px 0 #000;
 }
 
 /* Overview styling */
@@ -106,7 +107,7 @@ logo {
     text-align: center;
     background-color: aliceblue;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     color: white;
     padding: 20px;
@@ -162,9 +163,9 @@ across the container.  */
     text-align: center;
     color: white;
     position: relative;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     background-color: #062b7d;
     padding: 20px;
@@ -235,7 +236,7 @@ hr {
 #form-content {
     box-sizing: border-box;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: #1a1a1a;
     color: white;
