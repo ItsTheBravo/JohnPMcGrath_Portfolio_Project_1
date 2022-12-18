@@ -10,7 +10,7 @@
 
 body {
     font-family: "Nunito Sans", sans-serif;
-    color: #9a9a9a;
+    color: white;
     background-color: lightslategray;
 }
 
@@ -27,7 +27,7 @@ h1,
 h2 {
     font-family: Overpass, sans-serif;
     letter-spacing: 3px;
-    color: darkslategrey;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -80,33 +80,60 @@ logo {
 #hero-container {
     height: 600px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     position: relative;
+    background: url(../images/ps_logo.jpg) no-repeat center center;
 }
 
-#hero {
-    height: 600px;
+#cover-text {
+    margin: 200px auto;
+    height: auto;
     width: 100%;
-    background: url(../images/ps_logo.jpg) no-repeat center center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    color: rgb(255, 254, 254);
+    backdrop-filter: blur(6px);
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
 }
 
 /* Overview styling */
 
 #overview {
     text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #overview h2 {
+    color: #1a1a1a;
     font-size: 300%;
     margin: 20px;
 }
 
-#overview p {
+#overview p,
+#overview ul {
     line-height: 30px;
+    text-align: left;
     font-size: 130%;
     margin: 0 auto;
     width: 80%;
     color: #1a1a1a;
+    padding: 10px;
+}
+
+#overview ul {
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
 }
 
 /* Timeline Styling */
@@ -116,20 +143,31 @@ logo {
 are to be displayed on their respective sides on the page, where left would 
 be hugging the left of the container, and the right would be pushed halfway 
 across the container.  */
-#time h2 {
+
+#timeline h2 {
     font-size: 300%;
     text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+#time h3 {
     margin: 30px;
+    color: white;
 }
 
 
 #timeline {
+    box-sizing: border-box;
     text-align: center;
-    color: #1a1a1a;
+    color: white;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
     width: 80%;
+    border-radius: 10px;
+    background-color: #062b7d;
+    padding: 20px;
 }
 
 
@@ -141,18 +179,15 @@ child of the selected element. In this case, I used it to create my vertical bar
     position: absolute;
     width: 5px;
     background-color: whitesmoke;
-    top: 0;
+    top: 10%;
     bottom: 0;
     left: 50%;
     margin-left: -3px;
 }
 
-#timeline h2 {
-    font-size: 150%;
-}
 
 #timeline img {
-    width: 100px;
+    width: 90px;
     background-color: white;
     border-radius: 10px;
 }
@@ -187,13 +222,18 @@ hr {
 
 /* Form styling */
 
+#form {
+    margin-top: 30px;
+}
+
 #form h2 {
     font-size: 300%;
     text-align: center;
-    margin: 30px;
+    margin: 20px;
 }
 
 #form-content {
+    box-sizing: border-box;
     border-radius: 10px;
     width: 80%;
     margin: 0 auto;
