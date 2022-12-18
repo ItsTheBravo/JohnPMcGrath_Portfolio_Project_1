@@ -98,6 +98,7 @@ logo {
     text-align: center;
     padding: 20px;
     font-size: 150%;
+    text-shadow: -1px 1px 0 #000;
 }
 
 /* Overview styling */
@@ -106,7 +107,7 @@ logo {
     text-align: center;
     background-color: aliceblue;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     color: white;
     padding: 20px;
@@ -162,9 +163,9 @@ across the container.  */
     text-align: center;
     color: white;
     position: relative;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     background-color: #062b7d;
     padding: 20px;
@@ -235,7 +236,7 @@ hr {
 #form-content {
     box-sizing: border-box;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: #1a1a1a;
     color: white;
@@ -310,4 +311,53 @@ footer h3 {
     font-size: 180%;
     padding: 5%;
     color: white;
+}
+
+#FAB {
+    border: 1px solid black;
+    background-color: white;
+    position: fixed;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    bottom: 5%;
+    right: 5%;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+#FAB a {
+    width: 100%;
+}
+
+#FAB i {
+    font-size: 180%;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+
+    #menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu li {
+        display: flex;
+        width: 25%;
+        align-items: center;
+        border-bottom: none;
+    }
+
+    #menu a {
+        color: inherit;
+        display: inline;
+        width: 100%;
+        height: 100%;
+    }
 }
