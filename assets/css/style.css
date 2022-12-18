@@ -312,3 +312,52 @@ footer h3 {
     padding: 5%;
     color: white;
 }
+
+#FAB {
+    border: 1px solid black;
+    background-color: white;
+    position: fixed;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    bottom: 5%;
+    right: 5%;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+#FAB a {
+    width: 100%;
+}
+
+#FAB i {
+    font-size: 180%;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+
+    #menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu li {
+        display: flex;
+        width: 25%;
+        align-items: center;
+        border-bottom: none;
+    }
+
+    #menu a {
+        color: inherit;
+        display: inline;
+        width: 100%;
+        height: 100%;
+    }
+}
