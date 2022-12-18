@@ -304,8 +304,7 @@ input[type=submit] {
 footer {
     background-color: #6382AD;
     color: #F5EEE7;
-    height: 180px;
-    bottom: 0;
+    height: 100px;
     margin-top: 30px;
 }
 
@@ -314,7 +313,7 @@ footer h3 {
     color: #062B7D;
     text-align: center;
     font-size: 150%;
-    padding: 1%;
+    padding: 2%;
 }
 
 #socials {
