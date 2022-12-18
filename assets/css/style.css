@@ -10,7 +10,7 @@
 
 body {
     font-family: "Nunito Sans", sans-serif;
-    color: #9a9a9a;
+    color: white;
     background-color: lightslategray;
 }
 
@@ -179,7 +179,7 @@ child of the selected element. In this case, I used it to create my vertical bar
     position: absolute;
     width: 5px;
     background-color: whitesmoke;
-    top: 125px;
+    top: 10%;
     bottom: 0;
     left: 50%;
     margin-left: -3px;
