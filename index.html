@@ -50,6 +50,7 @@
 
         </div>
 
+        <!-- Floating action button for back to top -->
         <div id="FAB"><a href="index.html"><i class="fa-solid fa-arrow-up"></i></a></div>
     </section>
 
@@ -62,7 +63,10 @@
                 elicited critical acclaim and impressive sales. Titles such as Twisted Metal and Ridge Racer were very
                 popular. By 2005
                 the PlayStation had become the first console ever to ship 100 million units.</p>
-                <img src="/assets/images/ps background.jpg" alt="Playstation Logo">
+
+                <!-- Responsive image -->
+            <img src="/assets/images/ps background.jpg" alt="Playstation Logo">
+
             <p>The original console in the series was the first console of any type to ship over 100 million units,
                 doing so in under a
                 decade. Its successor, the PlayStation 2, was released in 2000. The PlayStation 2 is the best-selling
@@ -90,8 +94,11 @@
             <p>Happy Reading!</p>
         </div>
     </section>
+
+    <!-- The timeline with sections based on the different systems -->
     <article id="time">
 
+        <!-- Timeline has different sections "Left side" and "right side" to place divs on either side of the timeline -->
         <div id="timeline">
             <h2>The history from past to present</h2>
             <div class="left-side">
@@ -153,14 +160,18 @@
             </div>
         </div>
     </article>
+
+    <!-- Form with client side validation-->
     <section id="form">
 
         <form id="form-content" action="#">
             <h2>We want to hear from you!</h2>
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Your first name.."><br>
+            <input type="text" id="fname" name="fname" placeholder="Your first name.." required minlength="4"
+                maxlength="10"><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" placeholder="Your second name.."><br>
+            <input type="text" id="lname" name="lname" placeholder="Your second name.." required minlength="4"
+                maxlength="10"><br>
             <label for="country">Country:</label>
             <select id="country" name="country">
                 <option value="Ireland">Ireland</option>
@@ -168,13 +179,16 @@
                 <option value="USA">USA</option>
             </select><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="Your email.."><br>
+            <input type="email" id="email" name="email" placeholder="Your email.." required><br>
             <label for="area">What would you like a history on next?</label><br>
-            <textarea id="area" name="area" placeholder="Tell us what you think.."></textarea><br><br>
+            <textarea id="area" name="area" placeholder="Tell us what you think.." required
+                minlength="4"></textarea><br><br>
 
             <input type="submit" value="Submit">
         </form>
     </section>
+
+    <!-- Footer with links to socials and copyright -->
     <footer>
         <ul id="socials">
             <li><a href="https://facebook.com" target="_blank" rel="noopener"
