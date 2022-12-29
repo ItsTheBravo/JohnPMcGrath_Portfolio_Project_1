@@ -223,29 +223,29 @@ child of the selected element. In this case, I used it to create my vertical bar
 }
 
 .right-side {
-    width: 33%;
-    left: 66%;
+    width: 45%;
+    left: 55%;
     position: relative;
     text-align: right;
 }
 
 .left-side {
-    width: 33%;
+    width: 45%;
     position: relative;
     left: 0;
     text-align: left;
 }
 
 hr {
-    width: 150%;
+    width: 111%;
     border-top: 5px solid #F5EEE7;
     margin: 4px 0;
 }
 
 .right-side hr {
-    width: 150%;
+    width: 111%;
     position: relative;
-    left: -50%;
+    left: -12%;
     margin-left: 5px;
 }
 
