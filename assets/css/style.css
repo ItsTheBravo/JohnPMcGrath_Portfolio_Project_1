@@ -350,6 +350,7 @@ footer h3 {
     right: 5%;
     padding: 20px;
     border-radius: 50%;
+    z-index: 9999;
 }
 
 #FAB a {
@@ -363,6 +364,12 @@ footer h3 {
     width: 100%;
 }
 
+/* 404 Styling */
+#notfound {
+    font-size: 200%;
+    padding: 8%;
+    margin: 8%;
+}
 
 /* Media queries */
 
