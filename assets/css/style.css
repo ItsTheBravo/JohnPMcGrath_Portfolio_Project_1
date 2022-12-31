@@ -26,6 +26,7 @@ body {
     background-color: #062B7D;
 }
 
+/* pseudo classes to ensure all links have no decorations */
 a:hover,
 a:visited,
 a:link,
