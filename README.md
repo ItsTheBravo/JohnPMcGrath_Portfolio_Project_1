@@ -9,6 +9,9 @@ To view the site, simply open the index.html file in a web browser, or find the 
 ![Wireframe 1 ](../assets/images/Capture.PNG "Wireframe for top page")
 ![Wireframe 2 ](/assets/images/wireframe_2.PNG "Wireframe for timeline")
 ![Wireframe 3 ](assets/images/wireframe_form.PNG "Wireframe for form")
+<img src="assets/images/Capture.PNG" alt="img" title="img">
+<img src="/assets/images/wireframe_2.PNG" alt="img" title="img">
+<img src="../assets/images/Capture.PNG" alt="img" title="img">
 
 ## Features
 The website is in three sections, all accessible via scrolling or the navigation bar. Aimed to make it as easy to read as possible by having all content on a single page. The site includes a Navigation bar, Information overview section, a timeline with some sample content, and a contact section.
