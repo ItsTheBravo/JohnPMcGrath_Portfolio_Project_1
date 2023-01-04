@@ -425,4 +425,8 @@ footer h3 {
         left: 80%;
 
     }
+
+    #hero-container {
+        scale(0.8);
+    }
 }
