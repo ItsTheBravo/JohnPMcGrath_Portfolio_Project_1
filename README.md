@@ -5,6 +5,11 @@ Playstation History is a website documenting a brief history of Sony's Playstati
 ## Getting Started
 To view the site, simply open the index.html file in a web browser, or find the site live here, and usable on all screen sizes: https://itsthebravo.github.io/JohnPMcGrath_Portfolio_Project_1/
 
+## Wireframe planning
+[Wireframe 1 ](assets/images/Capture.PNG "Wireframe for top page")
+[Wireframe 2 ](assets/images/wireframe_2.PNG "Wireframe for timeline")
+[Wireframe 3 ](assets/images/wireframe_form.PNG "Wireframe for form")
+
 ## Features
 The website is in three sections, all accessible via scrolling or the navigation bar. Aimed to make it as easy to read as possible by having all content on a single page. The site includes a Navigation bar, Information overview section, a timeline with some sample content, and a contact section.
 
