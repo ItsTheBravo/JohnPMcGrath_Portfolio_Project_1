@@ -9,7 +9,7 @@ main colour: #6382AD;
 light accent: #B99590;
 light shade: #F5EEE7;
 
-
+I kept this code in for reference of the color palette I was using as I go
 
 */
 * {
@@ -139,21 +139,21 @@ logo {
     text-align: left;
     font-size: 130%;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     color: #062B7D;
     padding: 10px;
 }
 
 #overview img {
     max-height: 100%;
-    width: 50%;
+    width: 80%;
     border-radius: 3%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
 }
 
 #overview ul {
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
     text-align: left;
 }
 
@@ -173,7 +173,7 @@ across the container.  */
 }
 
 #time h3 {
-    margin: 30px;
+    margin: 20px 10px;
     color: #F5EEE7;
     font-size: 150%
 }
@@ -224,6 +224,7 @@ child of the selected element. In this case, I used it to create my vertical bar
 }
 
 .right-side {
+    margin: 20px 0px;
     width: 45%;
     left: 55%;
     position: relative;
@@ -231,6 +232,7 @@ child of the selected element. In this case, I used it to create my vertical bar
 }
 
 .left-side {
+    margin: 20px 0px;
     width: 45%;
     position: relative;
     left: 0;
@@ -427,6 +429,21 @@ footer h3 {
     }
 
     #hero-container {
-        scale(0.8);
+        background-size: contain;
+        background-repeat: no-repeat center;
+        height: 250px;
+        width: 100%;
+    }
+
+    #cover-text {
+        margin: 0 auto;
+        width: 100%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+        color: rgb(255, 254, 254);
+        backdrop-filter: blur(6px);
+        text-align: center;
+        padding: 20px;
+        font-size: 150%;
+        text-shadow: -1px 1px 0 #000;
     }
 }
