@@ -55,7 +55,7 @@ h2 {
 #menu {
     font-size: 130%;
     letter-spacing: 2px;
-    background-color: #6382ad;
+    background-color: #516B8F;
     text-align: center;
     margin: 0 auto;
     width: 97%;
@@ -128,7 +128,7 @@ logo {
 }
 
 #overview h2 {
-    color: #6382AD;
+    color: #516B8F;
     font-size: 250%;
     margin: 10px;
 }
@@ -263,7 +263,7 @@ hr {
     font-size: 250%;
     text-align: center;
     margin: 10px;
-    color: #6382AD;
+    color: #516B8F;
 }
 
 #form-content {
@@ -300,7 +300,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #53a26c;
+    background-color: #516B8F;
     border: none;
     color: #F5EEE7;
     padding: 16px 32px;
@@ -313,7 +313,7 @@ input[type=submit] {
 /* Footer Styling */
 
 footer {
-    background-color: #6382AD;
+    background-color: #516B8F;
     color: #F5EEE7;
     height: 100px;
     margin-top: 30px;
